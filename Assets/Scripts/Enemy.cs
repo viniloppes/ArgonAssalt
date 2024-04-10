@@ -14,7 +14,15 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         scoreBoard = FindAnyObjectByType<ScoreBoard>();
+        AddRigidBody();
     }
+
+    private void AddRigidBody()
+    {
+        Rigidbody tb = gameObject.AddComponent<Rigidbody>();
+        tb.useGravity = false;
+    }
+
     // Start is called before the first frame update
     private void OnParticleCollision(GameObject other)
     {
