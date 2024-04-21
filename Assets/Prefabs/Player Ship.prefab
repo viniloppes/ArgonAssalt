@@ -1955,6 +1955,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
       propertyPath: lengthInSec
       value: 0.1
       objectReference: {fileID: 0}
@@ -1999,8 +2003,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 250
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -2011,11 +2019,19 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
+      propertyPath: CollisionModule.collidesWithDynamic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.7723143
       objectReference: {fileID: 0}
     - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7336790230811031615, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
+      propertyPath: CollisionModule.m_EnergyLossOnCollision.scalar
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8026410098623824179, guid: 2d36e92da38073d43aa88f370b461176, type: 3}
